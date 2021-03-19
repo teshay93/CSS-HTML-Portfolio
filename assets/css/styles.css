@@ -7,12 +7,12 @@
 
 	/* ==== COLORS ==== */
 	--first-color: #45a29e;
-	--first-color-dark: #45a29e;
+	--first-color-dark: #8860d0;
 	--text-color: #45a29e;
 	--first-color-light: #c5c6c7;
 	--first-color-lighten: c5c6c7;
 	--second-color-light: #eaf5fa;
-	--second-color-dark: #0b0c10;
+	--second-color-dark: #5680e9;
 	--icon-color: #66fcf1;
 
 	/* ==== Font & typography ==== */
@@ -117,7 +117,7 @@ img {
 
 .section-title {
 	font-size: var(--h1-font-size);
-	color: var(--second-color-dark);
+	color: var(--first-color-dark);
 	margin-bottom: var(--mb-3);
 }
 
@@ -125,7 +125,7 @@ img {
 	display: block;
 	font-size: var(--smaller-font-size);
 	font-weight: var(--font-semi-bold);
-	color: var(--second-color-dark);
+	color: var(--first-color);
 }
 
 /* ==== LAYOUT ==== */
@@ -147,7 +147,7 @@ img {
 	top: 0;
 	left: 0;
 	z-index: var(--z-fixed);
-	background-color: #0b0c10;
+	background-color: #794ec9;
 }
 
 /* ==== NAV ==== */
@@ -167,7 +167,7 @@ img {
 		width: 100%;
 		padding-top: 1.5rem;
 		text-align: center;
-		background-color: #45a29e;
+		background-color: #32B5CC;
 		transition: all 0.5s;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 		border-radius: 0 0 1rem 1rem;
@@ -216,7 +216,7 @@ img {
 	left: 0;
 	width: 65%;
 	height: 3px;
-	background-color: var(--first-color-light);
+	background-color: var(--first-color);
 }
 
 /* ===== Change Background header ===== */
@@ -236,7 +236,7 @@ img {
 }
 
 .scroll-header {
-	background-color: #116466;
+	background-color: #794ec9;
 }
 
 /* ===== SCROLL TOP ===== */
@@ -256,7 +256,7 @@ img {
 }
 
 .scrolltop:hover {
-	background-color: var(--first-color);
+	background-color: var(--first-color-dark);
 }
 
 .scrolltop_icon {
@@ -273,7 +273,7 @@ img {
 
 /* ===== HOME ===== */
 .home {
-	background-color: #1f2833;
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(125,114,249,0.9742990654205608) 100%);
 	overflow: hidden;
 }
 
@@ -341,7 +341,7 @@ img {
 /* ===== BUTTONS ===== */
 .button {
 	display: inline-block;
-	background-color: var(--first-color);
+	background-color: var(--first-color-dark);
 	color: white;
 	padding: 0.75rem 1rem;
 	border-radius: 0.25rem;
@@ -349,11 +349,11 @@ img {
 }
 
 .button:hover {
-	background-color: var(--first-color-dark);
+	background-color: #aa92d7;
 }
 
 .button-light {
-	background-color: var(--first-color);
+	background-color: var(--first-color-dark);
 }
 
 .button-white {
@@ -383,12 +383,12 @@ img {
 .about_description span {
 	font-size: var(--h2-font-size);
 	font-weight: var(--font-semi-bold);
-	color: var(--second-color-dark);
+	color: var(--first-color-dark);
 }
 
 .about_number {
 	font-size: var(--h1-font-size);
-	color: var(--second-color-dark);
+	color: var(--first-color-dark);
 	display: block;
 }
 
@@ -409,7 +409,7 @@ img {
 
 .education_title {
 	font-size: var(--h1-font-size);
-	color: #45a29e;
+	color: var(--first-color-dark);
 	margin-bottom: var(--mb-2);
 	/* display: flex; */
 	align-items: center;
@@ -426,7 +426,7 @@ img {
 }
 
 .education_area {
-	color: #158ad8;
+	color: var(--first-color);
 }
 
 .education_icon,
@@ -507,7 +507,7 @@ img {
 
 .portfolio_title {
 	font-size: var(--h3-font-size);
-	color: #158ad8;
+	color: var(--first-color-dark);
 	margin: var(--mb-2);
 }
 
@@ -544,7 +544,7 @@ img {
 
 .contact_icon,
 .contact_title {
-	color: var(--first-color);
+	color: var(--first-color-dark);
 }
 
 .contact_icon {
@@ -598,7 +598,7 @@ img {
 	cursor: pointer;
 	border: none;
 	color: white;
-	background-color: var(--first-color);
+	background-color: var(--first-color-dark);
 }
 
 /* ===== FOOTER ===== */
