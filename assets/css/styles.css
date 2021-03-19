@@ -328,12 +328,12 @@ img {
 	width: max-content;
 	font-size: 1.3rem;
 	margin-bottom: var(--mb-2);
-	color: var(--first-color);
+	color: var(--icon-color);
 	z-index: var(--z-normal);
 }
 
 .home_social-icon:hover {
-	color: var(--icon-color);
+	color: #fff;
 }
 
 /* ===== BUTTONS ===== */
@@ -466,30 +466,6 @@ img {
 	box-shadow: 0 6px 8px rgba(174, 190, 205, 0.4);
 }
 
-/* ===== PROJECTS ===== */
-/* .project_container{
-    padding: 1.5rem 1rem;
-    background-color: var(--first-color-dark);
-    color: var(--first-color-lighten);
-    border-radius: .5rem;
-    text-align: center;
-}
-
-.project_icon, .project_title{
-    margin-bottom: var(--mb-1);
-}
-
-.project_icon{
-    font-size: 3.5rem;
-}
-
-.project_title{
-    font-size: 1.5rem;
-}
-
-.project_description{
-    margin-bottom: var(--mb-4);
-} */
 
 /* ===== PORTFOLIO ===== */
 
