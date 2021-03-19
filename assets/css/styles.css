@@ -190,6 +190,8 @@ img {
 .nav_logo,
 .nav_toggle {
 	color: var(--second-color-light);
+    font-family: 'Chango', cursive;
+
 }
 
 .nav_toggle {
