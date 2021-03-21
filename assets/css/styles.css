@@ -180,7 +180,7 @@ img {
 }
 
 .nav_link {
-	color: var(--first-color-light);
+	color: var(--second-color-light);
 	transition: 0.3s;
 }
 
