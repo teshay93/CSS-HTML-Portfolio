@@ -122,6 +122,12 @@ img {
 	margin-bottom: var(--mb-4);
 }
 
+.section-title-2 {
+	font-size: var(--h1-font-size);
+	color: var(--first-color-dark);
+	margin-bottom: 0;
+}
+
 .section-subtitle {
 	display: block;
 	font-size: var(--smaller-font-size);
@@ -392,6 +398,7 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 .about_description-1 {
 	text-align: left;
 	font-size: var(--h3-font-size);
+	color: var(--first-color);
 }
 
 .about_number {
@@ -434,7 +441,7 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 }
 
 .education_area {
-	color: #201F1E;
+	color: #2084d6;
 }
 
 .education_icon,
