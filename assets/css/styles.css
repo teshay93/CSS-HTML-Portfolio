@@ -325,6 +325,7 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 .home_social {
 	display: flex;
 	flex-direction: column;
+	margin-left: 2rem;
 }
 
 .home_social-icon {
@@ -350,7 +351,8 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 }
 
 .button:hover {
-	background-color: #2b7a78;
+	background-color: #91fcf5;
+	color: var(--header-dark)
 }
 
 .button-light {
@@ -387,10 +389,13 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 	color: var(--first-color);
 }
 
-
+.about_description-1 {
+	text-align: left;
+	font-size: var(--h3-font-size);
+}
 
 .about_number {
-	font-size: var(--h1-font-size);
+	font-size: var(--h3-font-size);
 	color: var(--first-color-dark);
 	display: block;
 }
@@ -429,7 +434,7 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 }
 
 .education_area {
-	color: var(--first-color);
+	color: #201F1E;
 }
 
 .education_icon,
