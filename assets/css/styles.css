@@ -441,7 +441,7 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 }
 
 .education_area {
-	color: #2084d6;
+	color: #191a1b;
 }
 
 .education_icon,
@@ -557,6 +557,9 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 	padding: 1.5rem;
 	text-align: center;
 	box-shadow: 0 4px 6px rgba(174, 190, 205, 0.3);
+}
+.contact_description {
+	color:var(--first-color)
 }
 
 .contact_icon,
