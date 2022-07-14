@@ -494,6 +494,7 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 .portfolio_item {
 	margin: 0 var(--mb-2);
 	cursor: pointer;
+	color: var(--first-color);
 }
 .portfolio_item:hover {
 	color: var(--first-color-dark);
