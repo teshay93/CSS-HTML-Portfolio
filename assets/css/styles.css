@@ -396,7 +396,7 @@ background: linear-gradient(0deg, rgba(63,156,180,1) 0%, rgba(58,175,169,1) 100%
 }
 
 .about_description-1 {
-	text-align: left;
+	text-align: center;
 	font-size: var(--h3-font-size);
 	color: var(--first-color);
 }
